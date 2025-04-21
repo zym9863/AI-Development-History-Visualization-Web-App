@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  background: linear-gradient(90deg, #3498db, #9b59b6, #e74c3c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.app-description {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-results-info {
+  background-color: rgba(52, 152, 219, 0.1);
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reset-button {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+  border-radius: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: rgba(231, 76, 60, 0.4);
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  .app-description {
+    font-size: 1rem;
+  }
+}
